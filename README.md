@@ -15,6 +15,11 @@ CREATE TABLE `Movie` (
 
 insert some records in the table
 
+insert into Movie(Title,imdbid,poster,type,year) values('spider man','imdb1','https://spiderman.com/spider.png','movie',2009);
+insert into Movie(Title,imdbid,poster,type,year) values('super man','imdb13','https://spiderman.com/superman.png','movie',2019);
+insert into Movie(Title,imdbid,poster,type,year) values('the spider man','imdb15','https://spiderman.com/thespiderman.png','movie',1909);
+insert into Movie(Title,imdbid,poster,type,year) values('spy man','imdb13','https://spiderman.com/spyman.png','movie',1923);
+
 Run using tomcat 7
 and access the url
 
