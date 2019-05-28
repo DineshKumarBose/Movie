@@ -28,6 +28,7 @@ public class Movies {
 
 	    @GET
 	    @Produces(MediaType.APPLICATION_JSON)
+	    @Path("/search")
 	    public Map<String, Object> get(@DefaultValue("1") @QueryParam("page") int page,
 	    		@DefaultValue("300")@QueryParam("per_page") int per_page, @QueryParam("Title") String movie_sub_str) {
 	    	try {
